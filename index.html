@@ -14,7 +14,7 @@
         height: 100%;
         overflow: hidden;
         margin: 0;
-        background-image: url(/qualitycpr/img/bg.jpg);
+        background-image: url(/img/bg.jpg);
       }
 
       a {
@@ -22,7 +22,7 @@
       }
 
       #plink:hover {
-        color: white;
+        color: ghostwhite;
       }
 
       body {
@@ -45,10 +45,9 @@
       .profile-pic {
         width: 150px;
         height: 170px;
-        object-fit: contain;
         margin-bottom: 2rem;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-        border-radius: 12px;
+        border-radius: 10%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -57,19 +56,19 @@
       h1 {
         margin: 0.3em 0;
         font-size: clamp(1.6rem, 4vw, 2rem);
-        color: #111;
+        color: ghostwhite;
       }
 
       h2 {
-        color: #222;
+        color: ghostwhite;
       }
 
       h3 {
-        color: #333;
+        color: ghostwhite;
       }
 
       p {
-        color: #111;
+        color: ghostwhite;
         margin: 0.3em 0 1.2em 0;
       }
 
@@ -113,7 +112,7 @@
       }
 
       footer {
-        margin-top: auto;
+        margin-top: -1.5em;
         width: 100%;
         color: #9ca3af;
         text-align: center;
@@ -122,7 +121,7 @@
       }
 
       footer span {
-        color: #111;
+        color: ghostwhite;
         font-weight: bold;
       }
 
@@ -232,10 +231,6 @@
           font-size: 15px;
         }
 
-        footer {
-          margin-top: auto;
-          margin-bottom: 1em;
-        }
         .line-text {
           display: flex;
           align-items: center;
@@ -288,11 +283,7 @@
 
   <body>
     <header>
-      <img
-        class="profile-pic"
-        src="/qualitycpr/img/logo.png"
-        alt="Profile Picture"
-      />
+      <img class="profile-pic" src="/img/logo.jpg" alt="Profile Picture" />
 
       <h1>CPR</h1>
       <h2>Cursos de CPR & AED</h2>
@@ -302,33 +293,27 @@
     <main>
       <div class="links">
         <a class="link" href="#" onclick="openEmailPopup()">
-          <img
-            class="link-logo"
-            src="/qualitycpr/img/mail_logo.png"
-            alt="Email logo"
-          />
+          <img class="link-logo" src="/img/mail_logo.png" alt="Email logo" />
           <span>Email</span>
           <div></div>
         </a>
 
         <a class="link" href="tel:9392437223">
-          <img
-            class="link-logo"
-            src="/qualitycpr/img/contact.png"
-            alt="Phone logo"
-          />
+          <img class="link-logo" src="/img/contact.png" alt="Phone logo" />
           <span>Contact</span>
           <div></div>
         </a>
       </div>
     </main>
-    <p style="text-align: center">
+    <p style="text-align: center; margin-top: -1em">
       <i
         >Cursos Aprobados Por:
         <br />
         <br />
         <strong>American Heart Association</strong></i
       >
+      <br />
+      <br />
     </p>
 
     <footer>
